@@ -32,6 +32,7 @@ public class Position {
 		this.row = row;
 	}
 	
+	@Override
 	public String toString() {
 		return row + "," + column;
 	}
